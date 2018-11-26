@@ -1,0 +1,61 @@
+body {
+    background-color:black;
+}
+
+.div1 {
+    background-color:white;
+    height: 300px;
+    display:block;
+    width:100%;
+    font-size:16px;
+    background-color:blue;
+}
+.div2 {
+    background-color:white;
+    height: 300px;
+    display:block;
+    width:100%;
+    float:right;
+    font-size:16px;
+    background-color:yellow;
+}
+
+@media only screen and (min-width: 768px){
+    .div1 {
+        display:block;
+        width:100%;
+        font-size:16px;
+        background-color:white;
+        
+     }
+     .div2 {
+        display:block;
+        width:100%;
+        float:right;
+        font-size:16px;
+        background-color:white;
+     }
+
+}
+
+@media only screen and (min-width: 1200px){
+    .div1 {
+       display: inline-block;
+       width:49%;
+       font-size:20px;
+       background-color:white;
+    }
+    .div2 {
+        display: inline-block;
+        width:49%;
+        float:right;
+        font-size:20px;
+        background-color:white;
+    }
+
+}
+
+
+    
+
+
